@@ -60,10 +60,10 @@ public class CodeGenerator {
             //this is likely wrong but i cant find the answer
             int i;
             for(i=0;i<imp.children.length-1;i++){
-                this.builder.append(imp.children[i].getName()+"/")
+                this.builder.append(imp.children[i].getName()+"/");
             }
-            this.builder.append(imp.children[i].getName())
-            imp.getImportStatements()
+            this.builder.append(imp.children[i].getName());
+            imp.getImportStatements();
             has=true;
         }
         this.root.previous();
